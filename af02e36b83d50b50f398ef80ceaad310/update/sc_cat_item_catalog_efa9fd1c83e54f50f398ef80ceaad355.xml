@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Order AI Devices">5fc835d883e54f50f398ef80ceaad348</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-14 06:16:35</sys_created_on>
+        <sys_id>efa9fd1c83e54f50f398ef80ceaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Order AI Devices</sys_name>
+        <sys_package display_value="AI for construction" source="x_1916809_ai_for_0">af02e36b83d50b50f398ef80ceaad310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI for construction">af02e36b83d50b50f398ef80ceaad310</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_efa9fd1c83e54f50f398ef80ceaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-14 06:16:35</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

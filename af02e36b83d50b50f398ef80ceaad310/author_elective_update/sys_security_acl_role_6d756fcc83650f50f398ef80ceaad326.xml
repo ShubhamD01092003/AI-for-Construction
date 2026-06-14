@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 19:30:07</sys_created_on>
+        <sys_id>6d756fcc83650f50f398ef80ceaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1916809_ai_for_0.release_management</sys_name>
+        <sys_package display_value="AI for construction" source="x_1916809_ai_for_0">af02e36b83d50b50f398ef80ceaad310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI for construction">af02e36b83d50b50f398ef80ceaad310</sys_scope>
+        <sys_security_acl display_value="">5b6567cc83650f50f398ef80ceaad389</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6d756fcc83650f50f398ef80ceaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 19:30:07</sys_updated_on>
+        <sys_user_role display_value="x_1916809_ai_for_0.release_management" name="x_1916809_ai_for_0.release_management">2f02e36b83d50b50f398ef80ceaad352</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI for construction">af02e36b83d50b50f398ef80ceaad310</application>
+        <file_path/>
+        <instance_id>06b8ff4e93c69618401cddd548373c18</instance_id>
+        <instance_name>dev291663</instance_name>
+        <name>sys_security_acl_role_6d756fcc83650f50f398ef80ceaad326</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-13 19:30:07</sys_created_on><sys_id>6d756fcc83650f50f398ef80ceaad326</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1916809_ai_for_0.release_management</sys_name><sys_package display_value="AI for construction" source="x_1916809_ai_for_0">af02e36b83d50b50f398ef80ceaad310</sys_package><sys_policy/><sys_scope display_value="AI for construction">af02e36b83d50b50f398ef80ceaad310</sys_scope><sys_security_acl display_value="">5b6567cc83650f50f398ef80ceaad389</sys_security_acl><sys_update_name>sys_security_acl_role_6d756fcc83650f50f398ef80ceaad326</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-13 19:30:07</sys_updated_on><sys_user_role display_value="x_1916809_ai_for_0.release_management" name="x_1916809_ai_for_0.release_management">2f02e36b83d50b50f398ef80ceaad352</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1427448835</payload_hash>
+        <record_name>.x_1916809_ai_for_0.release_management</record_name>
+        <reverted_from/>
+        <source>5187672783190b50f398ef80ceaad3cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 19:30:07</sys_created_on>
+        <sys_id>3db5270083a50f50f398ef80ceaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ec276849e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 19:30:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f9b5270028a50f5018560473f68751b1</update_guid>
+        <update_guid_history>f9b5270028a50f5018560473f68751b1:1427448835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_1916809_ai_for_0.release_management">b547230483a50f50f398ef80ceaad30a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-13 19:36:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6a454cbaa01043aea2d0d62e812c17f9</sys_id>
+        <sys_metadata>6d756fcc83650f50f398ef80ceaad326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1916809_ai_for_0.release_management</sys_name>
+        <sys_package display_value="AI for construction" source="x_1916809_ai_for_0">af02e36b83d50b50f398ef80ceaad310</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AI for construction">af02e36b83d50b50f398ef80ceaad310</sys_scope>
+        <sys_scope_delete display_value="">004da019222b4d44be22fe719103e579</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6d756fcc83650f50f398ef80ceaad326</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6d756fcc83650f50f398ef80ceaad326">3db5270083a50f50f398ef80ceaad3b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-13 19:36:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
