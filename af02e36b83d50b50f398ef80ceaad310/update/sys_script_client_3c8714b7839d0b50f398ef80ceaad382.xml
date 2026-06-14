@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide the section</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var device = g_form.getValue("u_device_name");
+
+    if (device) {
+        // Show sections
+        g_form.setSectionDisplay("device_details", true);
+        g_form.setSectionDisplay("delivery_details", true);
+
+        // Call GlideAjax when device exists
+        var ga = new GlideAjax("x_1916809_ai_for_0.Device_Details");
+        ga.addParam("sysparm_name", "getDetails");
+        ga.addParam("sysparm_getDeviceId", device);
+        ga.getXMLAnswer(getdata);
+    } else {
+        // Hide sections if no device selected
+        g_form.setSectionDisplay("device_details", false);
+        g_form.setSectionDisplay("delivery_details", false);
+    }
+
+    function getdata(response) {
+        if (response) {
+            var ans = JSON.parse(response);
+
+            g_form.setValue("u_model", ans.model);
+            g_form.setValue("u_device_description", ans.description);
+            g_form.setValue("u_price", ans.price);
+            g_form.setValue("u_warrenty_expiration", ans.warranty);
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-12 09:55:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c8714b7839d0b50f398ef80ceaad382</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide the section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI for construction" source="x_1916809_ai_for_0">af02e36b83d50b50f398ef80ceaad310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI for construction">af02e36b83d50b50f398ef80ceaad310</sys_scope>
+        <sys_update_name>sys_script_client_3c8714b7839d0b50f398ef80ceaad382</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-14 09:36:50</sys_updated_on>
+        <table>x_1916809_ai_for_0_device_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
